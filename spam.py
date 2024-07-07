@@ -14,7 +14,7 @@ except:
 	print("\n\t* Only Number *")
 	sys.exit()
 	
-url = "https://www.citcall.com/demo/misscallapi.php"
+url = "https://www.citcall.com/demo/fazaganteng.php"
 
 tkn = s.get(url).text
 token = re.findall(r'id="csrf_token" value="(.*?)">', tkn)[0]
